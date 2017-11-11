@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculator page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" />
+		<!--[if lt IE 9]>
+		 <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-lg-3 col-sm-3 box">
+					<h4 class="card-title">Add up</h4>
+					<div class="form-group">
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+					</div>
+					<button type="button" id="addUp" class="btn btn-secondary">Calculate</button>
+					<div class="holder text-center">
+						<span class="span"></span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-3 box">
+					<h4 class="card-title">Count Down</h4>
+					<div class="form-group">
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+					</div>
+					<button type="button" id="countdown" class="btn btn-secondary">Calculate</button>
+					<div class="holder text-center">
+						<span class="span"></span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-3 box">
+					<h4 class="card-title">Multiply</h4>
+					<div class="form-group">
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+					</div>
+					<button type="button" id="multiply" class="btn btn-secondary">Calculate</button>
+					<div class="holder text-center">
+						<span class="span"></span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-3 box">
+					<h4 class="card-title">Divide</h4>
+					<div class="form-group">
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+						<input type="text" class="form-control form-control-sm col-sm-5"  />
+					</div>
+					<button type="button" id="divide" class="btn btn-secondary">Calculate</button>
+					<div class="holder text-center">
+						<span class="span"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="brain.js"></script>
+		<script src="ui.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</body>
+</html>
